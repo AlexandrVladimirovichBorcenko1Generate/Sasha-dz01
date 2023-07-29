@@ -1,11 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Домашнее задание</title>
 </head>
 <body>
-    <script src="/main.js"></script>
+  <script>
+    const firstName = "Александр";
+    const lastName = "Борченко";
+
+    console.log(`Привет, ${firstName} ${lastName}!`);
+
+    document.write(`Привет, ${firstName} ${lastName}!`);
+  </script>
+
+  <script>
+    const num1 = 5;
+    const num2 = 10;
+
+    if (num1 === num2) {
+      console.log("Числа равны");
+    } else if (num1 > num2) {
+      console.log("Первое число больше");
+    } else {
+      console.log("Второе число больше");
+    }
+  </script>
+
+  
+  <script>
+    const color = "красный"; 
+
+    switch (color) {
+      case "зеленый":
+        console.log("Идти");
+        break;
+      case "желтый":
+        console.log("Ждать");
+        break;
+      case "красный":
+        console.log("Стоять");
+        break;
+      default:
+        console.log("Неизвестный цвет");
+        break;
+    }
+  </script>
 </body>
 </html>
